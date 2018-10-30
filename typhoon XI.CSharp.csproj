@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D2584949-FFA0-2614-0043-808EF15D0D9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Web v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebPlayer:6</UnityBuildTarget>
+    <UnityVersion>5.3.4f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Jboy.Core">
+      <HintPath>Assets\Jboy\Library\Jboy.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Jboy">
+      <HintPath>Assets\Jboy\Library\Jboy.dll</HintPath>
+    </Reference>
+    <Reference Include="uGameDB">
+      <HintPath>Assets\Plugins\uGameDB\Assembly\uGameDB.dll</HintPath>
+    </Reference>
+    <Reference Include="uLink">
+      <HintPath>Assets\Plugins\uLink\Assembly\uLink.dll</HintPath>
+    </Reference>
+    <Reference Include="uLobby">
+      <HintPath>Assets\Plugins\uLobby\Assembly\uLobby.dll</HintPath>
+    </Reference>
+    <Reference Include="uZone">
+      <HintPath>Assets\Plugins\uZone\Assembly\uZone.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="typhoon XI.CSharp.Plugins.csproj">
+      <Project>{7A5C0F61-9D93-F078-BCA7-01F60B47FD15}</Project>
+      <Name>typhoon XI.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\RecievedMovement.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\Allycra\Allycra_E_Movement.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\DmgDatabase.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\DmgDataclass.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\FlyingBomb.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\FrontSkillShot.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\Galilei\Galilei_W_Speed.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\Gus\AoeExplotion.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\Gus\FloorHit.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\LockedShot_B.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\MovePointerScript.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\PlayerDataClass.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\PlayerDatabase.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\PlayerLabel.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\ScoreTable.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\SkySpell.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\SpawnScript.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Characters\StaticFloorBomb.cs" />
+    <Compile Include="Assets\Scripts\Abilities\DestroyParticle.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Enemy\CanonBallScript.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Enemy\CreepLabel.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Enemy\CreepScript.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Enemy\MinionSpawnManager.cs" />
+    <Compile Include="Assets\Scripts\Abilities\Enemy\MinionsScript.cs" />
+    <Compile Include="Assets\Scripts\Abilities\HotObjBase.cs" />
+    <Compile Include="Assets\Scripts\Abilities\MobaStormAbility.cs" />
+    <Compile Include="Assets\Scripts\Abilities\ParticleFollow.cs" />
+    <Compile Include="Assets\Scripts\Abilities\RechargeQ.cs" />
+    <Compile Include="Assets\Scripts\Abilities\SlowObj.cs" />
+    <Compile Include="Assets\Scripts\Abilities\StunObj.cs" />
+    <Compile Include="Assets\Scripts\Camera\CanvasFaceCamera.cs" />
+    <Compile Include="Assets\Scripts\Camera\CustomCamera.cs" />
+    <Compile Include="Assets\Scripts\Character\AttackersDataClass.cs" />
+    <Compile Include="Assets\Scripts\Character\BaseStats.cs" />
+    <Compile Include="Assets\Scripts\Character\ItemManagement.cs" />
+    <Compile Include="Assets\Scripts\Character\MouseOver.cs" />
+    <Compile Include="Assets\Scripts\Character\NetworkSync.cs" />
+    <Compile Include="Assets\Scripts\Character\ParticleManager.cs" />
+    <Compile Include="Assets\Scripts\Character\PlayerControllerRTS.cs" />
+    <Compile Include="Assets\Scripts\Character\PlayerSpells.cs" />
+    <Compile Include="Assets\Scripts\Character\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\NetworkScripts\Client.cs" />
+    <Compile Include="Assets\Scripts\NetworkScripts\LobbySceneLoader.cs" />
+    <Compile Include="Assets\Scripts\NetworkScripts\MobaStormLobby.cs" />
+    <Compile Include="Assets\Scripts\NetworkScripts\Server.cs" />
+    <Compile Include="Assets\Scripts\NetworkScripts\ServerAutomatic.cs" />
+    <Compile Include="Assets\Scripts\NetworkScripts\ServerListObj.cs" />
+    <Compile Include="Assets\Scripts\Ui\CDRUi.cs" />
+    <Compile Include="Assets\Scripts\Ui\ChatBoxGame.cs" />
+    <Compile Include="Assets\Scripts\Ui\ChatBoxLobby.cs" />
+    <Compile Include="Assets\Scripts\Ui\DamageDealtUI.cs" />
+    <Compile Include="Assets\Scripts\Ui\GameEvents.cs" />
+    <Compile Include="Assets\Scripts\Ui\ItemDataBase.cs" />
+    <Compile Include="Assets\Scripts\Ui\ItemMySlot.cs" />
+    <Compile Include="Assets\Scripts\Ui\ItemStoreSlot.cs" />
+    <Compile Include="Assets\Scripts\Ui\LeftPanelUi.cs" />
+    <Compile Include="Assets\Scripts\Ui\LogInManager.cs" />
+    <Compile Include="Assets\Scripts\Ui\Menu.cs" />
+    <Compile Include="Assets\Scripts\Ui\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\Ui\SceneFadeInOut.cs" />
+    <Compile Include="Assets\Scripts\Ui\Selection\Char_Pick.cs" />
+    <Compile Include="Assets\Scripts\Ui\Selection\Char_Pick_DataClass.cs" />
+    <Compile Include="Assets\Scripts\Ui\Selection\Char_Slot.cs" />
+    <Compile Include="Assets\Scripts\Ui\Selection\PickSelection.cs" />
+    <Compile Include="Assets\Scripts\Ui\Selection\PlayerPick.cs" />
+    <Compile Include="Assets\Scripts\Ui\Selection\ReadyButton.cs" />
+    <Compile Include="Assets\Scripts\Ui\ShowCDR.cs" />
+    <Compile Include="Assets\Scripts\Ui\SpellLvlScript.cs" />
+    <Compile Include="Assets\Scripts\World\BaseRegeneration.cs" />
+    <Compile Include="Assets\Scripts\World\NexusScript.cs" />
+    <Compile Include="Assets\Scripts\World\ParticleDestroyer.cs" />
+    <Compile Include="Assets\Scripts\World\RechargeHealth.cs" />
+    <Compile Include="Assets\Scripts\World\TowerBasic.cs" />
+    <Compile Include="Assets\Scripts\World\TowerHeadScript.cs" />
+    <Compile Include="Assets\Scripts\World\WaterfallUvMove.cs" />
+    <Compile Include="Assets\Scripts\World\WaypointCircuit.cs" />
+    <Compile Include="Assets\Scripts\World\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Scripts\ZoneScripts\uZoneClientGUI.cs" />
+    <Compile Include="Assets\Scripts\ZoneScripts\uZoneInstance.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Cha_Data\Shader\WrapLambert.shader" />
+    <None Include="Assets\Jboy\Library\Jboy.Core.xml" />
+    <None Include="Assets\Jboy\Library\Jboy.xml" />
+    <None Include="Assets\Plugins\uGameDB\Assembly\uGameDB.xml" />
+    <None Include="Assets\Plugins\uGameDB\uGameDB License.txt" />
+    <None Include="Assets\Plugins\uLink\Assembly\uLink.xml" />
+    <None Include="Assets\Plugins\uLobby\Extras\ClientDLL\ReadMe.txt" />
+    <None Include="Assets\Plugins\uLobby\Extras\link.xml" />
+    <None Include="Assets\Plugins\uLobby\uLobby License.txt" />
+    <None Include="Assets\Plugins\uZone\Assembly\uZone.xml" />
+    <None Include="Assets\Resources\uLinkPrefs.txt" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MobileBloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Textures\Shaders\OutlineOnly.shader" />
+    <None Include="Assets\Textures\Shaders\OutlinerShader.shader" />
+    <None Include="Assets\Textures\Shaders\Standard Outlined.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+    <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
+    <None Include="Assets\UnityChan\license.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
